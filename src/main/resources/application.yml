@@ -1,0 +1,31 @@
+#测试端口号
+server:
+  port: 8081
+#对象写法
+student1:
+  name: 将桑
+  age: 3
+#行内写法
+student2: {name: 黄桑,age: 3}
+#数组写法
+pets:
+  - cat
+  - dog
+  - pig
+#数组行内写法
+pets2: [cat,dog,pig]
+#配置对象
+student:
+  name: 将桑
+  age: 3
+  birthday: 2023/6/26
+  maps: {k1: v1,k2: v2}
+  lists:
+    - cat
+    - dog
+    - pig
+  pig:
+    name: 莎莎公主
+    age: 3
+
+
